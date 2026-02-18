@@ -1,4 +1,6 @@
 
+# Extended convergence comparison (Case D3)
+# Evaluates numerical behaviour under refined diffusion settings.
 
 
 
