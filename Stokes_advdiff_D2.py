@@ -1,5 +1,8 @@
 
 
+# Parameter variation study (Case D2)
+# Examines sensitivity to diffusion coefficient changes.
+
 
 from mpi4py import MPI
 from dolfinx import fem, io
