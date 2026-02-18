@@ -310,10 +310,8 @@ if domain.comm.rank == 0:
     print("   Advection-diffusion problem solved successfully")
 
 
-# EXPORT RESULTS FOR VISUALIZATION
-
-# Save solution fields in VTX format (optimized for ParaView)
-# VTX format: ADIOS2-based, efficient for large parallel datasets
+# Post-processing and visualization pipeline added
+# Export results for ParaView visualization
 
 results_folder = Path("results")
 results_folder.mkdir(exist_ok=True, parents=True)
