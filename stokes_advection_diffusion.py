@@ -1,5 +1,11 @@
 
-# Main solver: steady Stokes + passive scalar advection–diffusion (DFG benchmark)
+# ==========================================================
+# Coupled Stokes–Advection–Diffusion Solver
+# Finite Element Implementation using DOLFINx
+# Author: Hamna Shafique
+# ==========================================================
+
+
 """
 Steady Stokes–Transport Solver for the 2D DFG Benchmark
 
