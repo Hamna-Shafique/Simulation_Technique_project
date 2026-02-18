@@ -1,5 +1,8 @@
 
 
+# Diffusion coefficient study (Case D1)
+# Investigates transport behaviour for baseline diffusion.
+
 
 
 
