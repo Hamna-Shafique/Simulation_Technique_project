@@ -1,8 +1,8 @@
 
-
+# Main solver: steady Stokes + passive scalar advection–diffusion (DFG benchmark)
 """
 Steady Stokes–Transport Solver for the 2D DFG Benchmark
-=======================================================
+
 
 This program computes a steady incompressible flow together with passive
 scalar transport in the classical DFG (flow around a cylinder) benchmark
@@ -53,7 +53,7 @@ Concentration:
 
 Numerical discretization
 ------------------------
-    Velocity–pressure : Taylor–Hood elements (P2–P1)
+    Velocity_pressure : Taylor_Hood elements (P2_P1)
     Concentration     : Continuous Lagrange P1 elements
     Linear solver     : LU factorization (MUMPS via PETSc)
     Parallelism       : MPI domain decomposition
