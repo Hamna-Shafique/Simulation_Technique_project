@@ -1,10 +1,7 @@
+# Verification using Method of Manufactured Solutions (MMS)
+# Ensures correctness of finite element implementation.
 
 
-
-"""
-Verification using Method of Manufactured Solutions (MMS)
-for the coupled Stokes–advection–diffusion solver.
-"""
 
 from mpi4py import MPI
 from dolfinx import fem, mesh, default_scalar_type
