@@ -166,7 +166,8 @@ def run_convergence_study(N_values, nu_val=1e-3, D_val=5e-4):
 
         ch = adv_problem.solve()
 
-        # ERRORS
+           # Mesh refinement study used to compute convergence rates
+           # in L2 norm for velocity, pressure, and concentration.
         
         err_u = fem.assemble_scalar(
             fem.form(ufl.inner(uh-u_exact, uh-u_exact)*ufl.dx)
